@@ -1,3 +1,9 @@
+/*
+Name : Cluster module
+Description: The cluster module in Node.js allows a Node.js process to spawn child processes that share server ports. It provides an easy way to create child processes that are exact copies of the parent process, and share server ports to handle the incoming traffic efficiently by using all available CPU cores. This allows a Node.js application to scale across multiple CPU cores and utilize the available hardware resources.
+
+*/
+
 const cluster = require('cluster');
 const http = require('http');
 const numCPUs = require('os').cpus().length;

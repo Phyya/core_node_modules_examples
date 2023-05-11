@@ -1,3 +1,9 @@
+/*
+Name : Events module
+Description: The events module provides an implementation of the observer pattern, allowing you to emit and handle custom events. The module defines an EventEmitter class that serves as the base class for objects that can emit events.
+
+*/
+
 const EventEmitter = require('events');
 
 const myEmitter = new EventEmitter();

@@ -1,3 +1,9 @@
+/*
+Name : HTTP module
+Description: The http module provides functionality for creating and interacting with HTTP servers and clients. It allows you to handle HTTP requests and responses, as well as make requests to other HTTP servers.
+
+*/
+
 const http = require('http');
 
 const server = http.createServer((req, res) => {

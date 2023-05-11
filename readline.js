@@ -1,3 +1,9 @@
+/*
+Name : Readline module
+Description: The readline module in Node.js provides an interface for reading input from a readable stream (such as process.stdin) one line at a time.
+
+*/
+
 const readline = require('readline');
 
 const rl = readline.createInterface({

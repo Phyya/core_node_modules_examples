@@ -1,3 +1,9 @@
+/*
+Name : OS module
+Description: The os module provides a way to interact with the operating system. It allows you to access various information about the system, such as the amount of free memory, the number of CPUs, and the operating system platform.
+
+*/
+
 const os = require('os');
 
 const networkInterfaces = os.networkInterfaces();
